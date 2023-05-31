@@ -249,12 +249,25 @@ hr {
   width: fit-content;
 }
 
+@media screen and (max-width: 768px) {
+  #nav-link-1 {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .mobile {
     visibility: hidden;
     position: absolute;
     left: 0;
     top: 0;
+  }
+
+  #popup-mobile-menu {
+    display: none;
+    height: 0;
+    width: 0;
+    overflow: hidden;
   }
 
   .desktop {
@@ -295,9 +308,9 @@ hr {
     color: var(--accentColor);
   }
 
-  .regular-link:visited {
+  /* .regular-link:visited {
     color: var(--accentColor);
-  }
+  } */
 
   #special-link {
     color: var(--accentColor);

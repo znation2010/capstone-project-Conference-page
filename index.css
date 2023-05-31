@@ -276,6 +276,13 @@ hr {
     top: 0;
   }
 
+  #popup-mobile-menu {
+    display: none;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+  }
+
   .desktop {
     visibility: visible;
     position: static;
