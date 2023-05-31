@@ -4,32 +4,155 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
     <title>About page</title>
   </head>
   <body>
-    <!--Header and Navigation -->
     <header>
-      <div>
-        <nav>
-          <div class="logo"></div>
-          <div class="hamburger"></div>
-          <div class="menu-container">
-            <ul class="">
-              <li class="">
-                <a href="#">About</a>
-                <a href="#">Program</a>
-                <a href="#">Join</a>
-                <a href="#">Sponser</a>
-                <a href="#">News</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+      <div class="mobile no-pop" id="mobile-header">
+        <a id='mobile-menu' href="#">
+          <img id="hamburger-menu" src="./assets/mobile_menu.png" alt="hamburger-menu icon" />
+        </a>
       </div>
+      <div class="desktop" id="top-bar">
+        <a href="#">
+          <img src="./assets/facebook.png" alt="facebook">
+        </a>
+        <a href="#">
+          <img src="./assets/twitter.png" alt="twitter">
+        </a>
+        <a href="#">English</a>
+        <a href="#">My page</a>
+        <a href="#">Logout</a>
+      </div>
+      <nav class="desktop" id="nav">
+        <div id="logo">
+          <a href="./index.html"><img src="./assets/NATO-Logo(4).png" alt="NATO logo"></a>
+        </div>
+        <div id="nav-links">
+          <ul>
+            <li>
+              <a id="nav-link-1" class="regular-link" href="./about.html">About</a>
+            </li>
+            <li>
+              <a id="nav-link-2" class="regular-link" href="#">Program</a>
+            </li>
+            <li>
+              <a id="nav-link-3" class="regular-link" href="#">Join</a>
+            </li>
+            <li>
+              <a id="nav-link-4" class="regular-link" href="#">Sponsor</a>
+            </li>
+            <li>
+              <a id="nav-link-5" class="regular-link" href="#">News</a>
+            </li>
+            <li>
+              <a id="special-link" href="#">Campaign</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <!-- Hero Section Start -->
+    </header>
+    <main>
+      <section id="about-event">
+        <div id="abt">
+          <div id="event-header">
+            <h4 class="mobile">"Hello, NATO Members!"</h4>
+            <h1>NATO <br class="desktop"> Global Summit 2023</h1>
+            <hr class="desktop">
+          </div>
+          <div id="event-description">
+            <p>
+              The 2023 Warsaw Summit of the North Atlantic Treaty Organization (NATO) will convene on 8-9 July, bringing
+              together <br>Member States' heads of state and heads of government in order to facilitate dialogue and establish
+              new policies and strategies for the Alliance. The main issues on the agenda will include balancing the Alliance's
+              policies towards the East and the South; <br>EU-NATO relations; and ensuring that Allies are fulfilling their defence
+              budget commitments. In the face of emerging and <br>complex security threats in the European security
+              environment, the challenge for NATO is to maintain and project a cohesive, united and effective vision for
+              transatlantic security.
+            </p>
+          </div>
+          <div id="contact-details">
+            <p>
+              If you want any additional information about NATO Global Summit 2023 get in touch using email at <br><a
+                href="#">natoglobalsummit.org</a>
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <!-- Hero Section End -->
+      <section class="body-section" id="about-logo">
+        <div class="flex" id="lgo">
+          <div class="section-title">
+            <h4>
+              NATO Logo
+            </h4>
+            <hr>
+          </div>
+          <div class="section-description">
+            <p class="centered">At present, NATO has 31 member countries. In 1949, there were 12 founding members of the Alliance: Belgium, Canada, Denmark, France, Iceland, Italy, Luxembourg, the Netherlands, Norway, Portugal, the United Kingdom and the United States. Since then, 19 more countries have joined the Alliance: Greece and Türkiye (1952); Germany (1955); Spain (1982); Czechia, Hungary and Poland (1999); Bulgaria, Estonia, Latvia, Lithuania, Romania, Slovakia and Slovenia (2004); Albania and Croatia (2009); Montenegro (2017); North Macedonia (2020); and Finland (2023).</p>
+          </div>
+          <div class="logo-display">
+            <img src="assets/NATO-Logo.png" alt="NATO-logo">
+          </div>
+        </div>
+      </section>
+
+      <section class="body-section" id="past-events">
+        <div class="section-title">
+          <h4>
+            See Past NATO Global Summits
+          </h4>
+          <hr>
+        </div>
+        <div class="section-description">
+          <p class="centered">Take a look at the past two NATO Global Summits that took place in IceLand and Finland</p>
+        </div>
+        <div id="event-cards">
+          <div  id="tanzania">
+            <div class="tint">
+              <h2>2017</h2>
+              <p>NATO Global Summit in Helsinki, Finland</p>
+            </div>
+          </div>
+          <div id="iceland">
+            <div class="tint" >
+              <h2>2023</h2>
+              <p>NATO Global Summit in Reykjavic, Iceland</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mobile" id="partners">
+        <div class="section-title">
+          <h4>Partner</h4>
+          <hr>
+        </div>
+        <div id="mobile-partner-logos">
+          <img src="assets/spotify.png" alt="spotify" />
+          <img src="assets/google.png" alt="google" />
+          <img src="assets/mozilla.png" alt="mozilla" />
+          <img src="assets/adobe.png" alt="adobe" />
+          <img src="assets/ibm.png" alt="ibm" />
+        </div>
+      </section>
+
+      <section class="footer dark">
+        <div id="logo">
+          <img class="mobile" src="assets/NATO-Logo(1).png" alt="NATO logo">
+          <img class="desktop" src="assets/NATO-Logo(1).png" alt="NATO logo">
+        </div>
+        </div>
+        <div class="copyright">
+          <hp>2023 North Atlantic Treaty Organization. Copy rights are reserved</hp>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
   </body>
 </html>
