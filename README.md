@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Hello Microverse Project</b></h3>
+  <h3><b>Capstone Project</b></h3>
 
 </div>
 
@@ -30,17 +30,17 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: finish Desktop version
+# 📖 NATO Global Summit Conference Page
 
 <a name="about-project"></a>
 
-> Portfolio: Desktop portfolio is a project that is designed for us to get familiar with setting a using forms and inputs to validate user inputs also utilizing them for different devices also using Responsive design and linters.
+> The NATO Global Summit Conference Page website is a Capstone project from the first module in Microverse. My website is based on a design by Cindy Shin. I only built the Home and About pages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The Tech stack that were used in this project are HTML & CSS.
+> The Tech stack that were used in this project are HTML, JavaScript & CSS.
 
 <details>
   <summary>Client</summary>
@@ -56,10 +56,10 @@
 - Media Queries
 - Form
 - Interactive Contact forms
-- Form Validation
+- Dynamically generated HTML
 - Utilized Flexbox
-- Github workflow linter(HTML+CSS)
-- Pair-Programming
+- Github workflow linter(HTML+CSS+JS)
+- Solo-Programming
 - Deployed to the web
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,8 +95,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-cd Hello_Microverse_Project
-git clone https://github.com/znation2010/Mobile_Version_Portfolio.git
+cd capstone-project-Conference-page
+git clone https://github.com/znation2010/capstone-project-Conference-page
 ```
 
 ### Install
@@ -104,7 +104,7 @@ git clone https://github.com/znation2010/Mobile_Version_Portfolio.git
 Install this project with:
 
 ```sh
-  cd Mobile_Version_Project
+  cd capstone-project-Conference-page
   npm i
 ```
 
@@ -123,6 +123,7 @@ To run tests, run the following command:
 ```
 npx hint .
 npx stylelint "**/*.{css,scss}"
+npx eslint .
 ```
 
 ### Deployment
@@ -152,7 +153,6 @@ Netilfy or Github pages.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Contact form interactivity
-- Client Testimonials
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +178,10 @@ If you like this project checkout my github @znation2010 for more projects.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and my coding partners for being my navigators in this awesome project.
+I would like to thank
+
+- Microverse and my coding partners for being my navigators in this awesome project.
+- Cindy Shin for making this design available for use under the Creative Commons License
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,6 +189,6 @@ I would like to thank Microverse and my coding partners for being my navigators 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [LICENSE](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
