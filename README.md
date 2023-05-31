@@ -68,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Zerihun's website](https://znation2010.github.io/)
+- [NATO-Conference website](https://znation2010.github.io/nato-conference.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
