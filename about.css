@@ -196,7 +196,7 @@ hr {
   filter: grayscale(100%);
 }
 
-.footer {
+footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -383,7 +383,7 @@ hr {
     max-width: 35rem;
   }
 
-  .footer {
+  footer {
     background-color: #272a31;
     color: var(--primaryColor);
     font-size: 1rem;
