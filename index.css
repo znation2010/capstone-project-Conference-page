@@ -6,6 +6,7 @@
 
 html {
   font-family: 'Lato', sans-serif;
+
   --primaryColor: #d4d4d4;
   --lightColor: #26292f;
   --orangeColor: #eb5443;
@@ -54,6 +55,10 @@ a {
 #homepage-header > h1 {
   font-weight: 900;
   font-size: 2.5rem;
+}
+
+p {
+  line-height: 1.5rem;
 }
 
 #homepage-description {
@@ -145,10 +150,6 @@ hr {
   padding: 1.5rem;
 }
 
-p {
-  line-height: 1.5rem;
-}
-
 #featured-speakers {
   background: #f8f8f8;
   display: flex;
@@ -224,7 +225,7 @@ p {
   display: none;
 }
 
-/*----  Mobile Pop-up Menu ---  */
+/* ----  Mobile Pop-up Menu ---  */
 .pop {
   margin: 1rem 2rem 1rem 0;
   float: right;
@@ -308,7 +309,7 @@ p {
     gap: 1.25rem;
   }
 
-  #nav-links>ul>li>a:hover {
+  #nav-links > ul > li > a:hover {
     color: var(--orangeColor);
   }
 
