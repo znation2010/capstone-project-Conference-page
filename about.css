@@ -242,12 +242,6 @@ footer {
   width: fit-content;
 }
 
-@media screen and (max-width: 768px) {
-  #about {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .mobile {
     position: absolute;

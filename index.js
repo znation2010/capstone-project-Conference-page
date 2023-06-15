@@ -6,7 +6,6 @@ const menuList = document.createElement('div');
 const mobileHeader = document.querySelector('.no-pop');
 const menuItems = [
   { text: 'Home', id: 'about', specialClass: '' },
-  { text: 'About', id: 'about', specialClass: '' },
   { text: 'Program', id: 'program', specialClass: '' },
   { text: 'Join', id: 'join', specialClass: '' },
   { text: 'Sponsor', id: 'sponsor', specialClass: '' },
